@@ -1,0 +1,25 @@
+:root {
+    --cor-1: #43214B;
+    --cor-2: #755D78;
+    --cor-3: #0F0C1A;
+    --cor-4: #222131;
+    --cor-5: #FBDCD4;
+
+    --fonte-principal: 'Arial', sans-serif;
+    --tamanho-texto: px;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-texto);
+
+}
+
+h1{
+    font-size: 60px;
+
+}
+
+h2{
+    font-size: 30px;
+}

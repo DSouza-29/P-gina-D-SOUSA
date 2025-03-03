@@ -1,0 +1,63 @@
+:root {
+    --cor-1: #43214B;
+    --cor-2: #755D78;
+    --cor-3: #0F0C1A;
+    --cor-4: #222131;
+    --cor-5: #FBDCD4;
+
+    --fonte-principal: 'Arial', sans-serif;
+    --tamanho-texto: px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+}
+
+body{
+    
+    font-family: var(--fonte-principal);
+   
+}
+
+header{
+    background-color: var(--cor-5);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.pesquisaecarrinho{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    background-color: #43214B;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    font-style: none;
+    list-style: none;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
